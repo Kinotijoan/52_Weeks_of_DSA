@@ -14,7 +14,7 @@ type ListNode struct {
 
 func isPalindrome(head *ListNode) bool {
 	slow, fast := head, head
-	for fast != nil && fast.Next != nil{
+	for fast != nil && fast.Next != nil {
 		slow = slow.Next
 		fast = fast.Next.Next
 	}
