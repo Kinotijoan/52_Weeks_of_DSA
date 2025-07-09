@@ -1,0 +1,8 @@
+# Ignore files and directories that should not be tracked by Git
+
+
+.idea/
+
+#MacOS
+.DS_Store
+
