@@ -1,4 +1,7 @@
 class Solution {
+    // Let n = # of nodes, and e = # of edges
+    // - Runtime -> O(n + e)
+    // - Space complexity -> O(n + e)
     fun countPairs(n: Int, edges: Array<IntArray>): Long {
         var result: Long = 0
 
