@@ -8,7 +8,7 @@ public class Solution
     /// 
     /// Complexity analysis
     /// --------------------
-    /// - Runtime -> O(log(m + n))
+    /// - Runtime -> O(log(m * n))
     /// - Space -> O(1)
     public bool SearchMatrix(int[][] matrix, int target)
     {
